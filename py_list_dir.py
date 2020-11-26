@@ -1,2 +1,5 @@
-for x in os.listdir('.'):
-    print x
+import os
+
+for root, dirs, files in os.walk("."):
+    for filename in files:
+        print(filename)
