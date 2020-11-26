@@ -1,2 +1,2 @@
 # PythonCode
-Smal useful python code
+Small useful Python code.
