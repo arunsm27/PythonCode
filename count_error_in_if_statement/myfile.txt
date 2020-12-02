@@ -3,16 +3,16 @@ This is Delhi
 This is Paris 
 This is London 
 
-if (x == 1)
+if (x == 1) #This is correct pattern
 {
 
 }
-else if (y == 2)
+else if (y == 2) #This is correct pattern
 {
 
 
 }
-else if(z == 1)
+else if(z == 1)  #This is incorrect pattern and should be detected.
 {
 
 
