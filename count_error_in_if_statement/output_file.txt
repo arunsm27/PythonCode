@@ -1,0 +1,2 @@
+else if(z == 1)  #This is incorrect pattern and should be detected.
+ 16
