@@ -1,0 +1,26 @@
+Hello 
+This is Delhi 
+This is Paris 
+This is London 
+
+#define MAX 30
+
+if (x == 1) #This is correct pattern
+{
+
+}
+else if (y == 2) #This is correct pattern
+{
+
+
+}
+else if(z == 1)  #This is incorrect pattern and should be detected.
+{
+
+
+}
+
+while (i < 2.789)
+{
+    printf ("the output is 2323");
+}
