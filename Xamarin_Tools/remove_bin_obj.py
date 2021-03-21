@@ -53,4 +53,13 @@ path = os.path.join(TopView + "\\" + ProjectName + ".iOS", "bin")
 shutil.rmtree(path, ignore_errors=True)
 print ("Removed bin and obj files in %s iOS folder" % ProjectName)
 
+########To delete the directory obj\bin in folder of iOS project folder.
+
+path = os.path.join(TopView + "\\" + ProjectName + ".iOS", "obj")
+shutil.rmtree(path, ignore_errors=True)
+
+path = os.path.join(TopView + "\\" + ProjectName + ".iOS", "bin")
+shutil.rmtree(path, ignore_errors=True)
+print ("Removed bin and obj files in %s iOS folder" % ProjectName)
+
 
