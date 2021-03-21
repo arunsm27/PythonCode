@@ -6,7 +6,7 @@
 #SolName
 #SolName.Android
 #SolName.iOS
-#Tools
+#Xamarin_Tools
 #SolName.sln
       
 # importing os module   
@@ -48,18 +48,17 @@ print ("Removed bin and obj files in %s Android folder" % ProjectName)
 
 path = os.path.join(TopView + "\\" + ProjectName + ".iOS", "obj")
 shutil.rmtree(path, ignore_errors=True)
+print (path)
 
 path = os.path.join(TopView + "\\" + ProjectName + ".iOS", "bin")
 shutil.rmtree(path, ignore_errors=True)
 print ("Removed bin and obj files in %s iOS folder" % ProjectName)
 
-########To delete the directory obj\bin in folder of iOS project folder.
+########To delete the directory Project Name.UWP.
 
-path = os.path.join(TopView + "\\" + ProjectName + ".iOS", "obj")
+path = os.path.join(TopView + "\\" + ProjectName + ".UWP")
 shutil.rmtree(path, ignore_errors=True)
 
-path = os.path.join(TopView + "\\" + ProjectName + ".iOS", "bin")
-shutil.rmtree(path, ignore_errors=True)
-print ("Removed bin and obj files in %s iOS folder" % ProjectName)
+print ("Deleted the directory %s.UWP" % ProjectName)
 
 
