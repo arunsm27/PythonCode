@@ -17,30 +17,36 @@ hexValueDict = {
                }
 
 x = 1
-print ("Value of x is \r\n",x)
+print ("Value of x is %d" %x)
+
+print ("Value of one left shift on x is %d" %(hexValueDict['ZERO_BIT'] << 1))
+print ("Value of two left shift on x is %d" %(hexValueDict['ZERO_BIT'] << 3))
+print ("Value of zero left shift on x is %d" %(hexValueDict['ZERO_BIT'] << 0))
 
 a = ((hexValueDict['ZERO_BIT'] << 1) + (hexValueDict['ZERO_BIT'] << 3) + (hexValueDict['ZERO_BIT'] << 0))
 y = ((hexValueDict['ZERO_BIT'] << 1) | (hexValueDict['ZERO_BIT'] << 3) | (hexValueDict['ZERO_BIT'] << 0)) 
 
-print ("Value of one shift is \r\n",(hexValueDict['ZERO_BIT'] << 1))
-print ("Value of two shift is \r\n",(hexValueDict['ZERO_BIT'] << 3))
-print ("Value of two shift is \r\n",(hexValueDict['ZERO_BIT'] << 0))
-
-print ("Value of a is \r\n",a)
-print ("Value of y is \r\n",y)
+print ("Plus operation: Value of a is %d" %a)
+print ("Logical OR Operation: Value of y is %d" %y)
 
 #-------------------------------------------------------------------------------------------------------------
 #Output
-#Value of x is 
+#Value of x is 
+
 # 1
-#Value of one shift is 
+#Value of one shift is 
+
 # 2
-#Value of two shift is 
+#Value of two shift is 
+
 # 8
-#Value of two shift is 
+#Value of two shift is 
+
 # 1
-#Value of a is 
+#Value of a is 
+
 # 11
-#Value of y is 
+#Value of y is 
+
 # 11
 #-------------------------------------------------------------------------------------------------------------
